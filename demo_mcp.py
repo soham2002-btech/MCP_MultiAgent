@@ -4,7 +4,6 @@ from mcp.server import Server, InitializationOptions, NotificationOptions
 from mcp.server.stdio import stdio_server
 import time
 
-# Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
