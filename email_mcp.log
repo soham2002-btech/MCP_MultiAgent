@@ -1,0 +1,100 @@
+2025-05-28 17:27:28,160 - __main__ - INFO - Starting email MCP server
+2025-05-28 17:27:28,189 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-28 17:27:28,189 - __main__ - INFO - Listing available tools
+2025-05-28 17:27:28,276 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-28 17:27:28,276 - __main__ - INFO - Listing available tools
+2025-05-29 11:11:18,423 - __main__ - INFO - Starting email MCP server
+2025-05-29 11:11:18,431 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-29 11:11:18,431 - __main__ - INFO - Listing available tools
+2025-05-29 11:11:18,441 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-29 11:11:18,441 - __main__ - INFO - Listing available tools
+2025-05-30 12:04:21,002 - __main__ - INFO - Starting email MCP server
+2025-05-30 12:04:21,009 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 12:04:21,009 - __main__ - INFO - Listing available tools
+2025-05-30 12:04:21,018 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 12:04:21,018 - __main__ - INFO - Listing available tools
+2025-05-30 12:07:26,822 - __main__ - INFO - Starting email MCP server
+2025-05-30 12:07:26,830 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 12:07:26,830 - __main__ - INFO - Listing available tools
+2025-05-30 12:07:26,836 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 12:07:26,837 - __main__ - INFO - Listing available tools
+2025-05-30 15:46:36,769 - __main__ - INFO - Starting email MCP server
+2025-05-30 15:46:36,773 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 15:46:36,773 - __main__ - INFO - Listing available tools
+2025-05-30 15:46:36,778 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 15:46:36,778 - __main__ - INFO - Listing available tools
+2025-05-30 15:47:41,100 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-05-30 15:47:41,102 - __main__ - INFO - Calling tool: send_email with arguments: {'to': 'sohamkaranjkar20@gmail.com', 'subject': 'Hello from MCP', 'body': 'Hi'}
+2025-05-30 15:47:49,473 - __main__ - INFO - Email sent successfully
+2025-05-30 15:49:51,127 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-05-30 15:49:51,129 - __main__ - INFO - Calling tool: get_latest_email with arguments: {}
+2025-05-30 15:49:53,575 - __main__ - INFO - Retrieved email from: "Darshak Parikh (via Google Drive)" <drive-shares-dm-noreply@google.com>, subject: Folder shared with you: "GenAI For Developers"
+2025-05-30 15:51:39,796 - __main__ - INFO - Starting email MCP server
+2025-05-30 15:51:39,802 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 15:51:39,803 - __main__ - INFO - Listing available tools
+2025-05-30 15:51:39,809 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 15:51:39,810 - __main__ - INFO - Listing available tools
+2025-05-30 15:52:11,718 - __main__ - INFO - Starting email MCP server
+2025-05-30 15:52:11,723 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 15:52:11,723 - __main__ - INFO - Listing available tools
+2025-05-30 15:52:11,728 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 15:52:11,729 - __main__ - INFO - Listing available tools
+2025-05-30 15:53:30,978 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-05-30 15:53:31,000 - __main__ - INFO - Calling tool: get_latest_email with arguments: {}
+2025-05-30 15:53:33,279 - __main__ - INFO - Retrieved email from: "Darshak Parikh (via Google Drive)" <drive-shares-dm-noreply@google.com>, subject: Folder shared with you: "GenAI For Developers"
+2025-05-31 12:58:27,643 - __main__ - INFO - Starting email MCP server
+2025-05-31 12:58:27,652 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-31 12:58:27,652 - __main__ - INFO - Listing available tools
+2025-05-31 12:58:27,658 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-31 12:58:27,658 - __main__ - INFO - Listing available tools
+2025-05-31 12:59:15,785 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-05-31 12:59:15,785 - __main__ - INFO - Calling tool: get_latest_email with arguments: {}
+2025-05-31 12:59:19,399 - __main__ - INFO - Retrieved email from: Soham Sachin Karanjkar <soham.karanjkar@coffeebeans.io>, subject: New expense report Expense Report - Soham Sachin Karanjkar - 329
+ submitted
+2025-06-02 18:31:18,571 - __main__ - INFO - Starting email MCP server
+2025-06-02 18:31:18,578 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-02 18:31:18,578 - __main__ - INFO - Listing available tools
+2025-06-02 18:31:18,586 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-02 18:31:18,586 - __main__ - INFO - Listing available tools
+2025-06-02 18:32:48,384 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-06-02 18:32:48,385 - __main__ - INFO - Calling tool: get_latest_email with arguments: {}
+2025-06-02 18:32:51,138 - __main__ - INFO - Retrieved email from: Priyanka Raymund <priyanka@coffeebeans.io>, subject: Your timesheet request is approved.
+2025-06-02 18:33:11,933 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-06-02 18:33:11,934 - __main__ - INFO - Calling tool: get_latest_email with arguments: {}
+2025-06-02 18:33:14,726 - __main__ - INFO - Retrieved email from: Priyanka Raymund <priyanka@coffeebeans.io>, subject: Your timesheet request is approved.
+2025-06-02 18:34:02,142 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-06-02 18:34:02,143 - __main__ - INFO - Calling tool: send_email with arguments: {'to': 'abhishek.khemani@coffeebeans.io', 'subject': 'hello', 'body': 'Hi'}
+2025-06-02 18:34:10,089 - __main__ - INFO - Email sent successfully
+2025-06-04 14:41:09,607 - __main__ - INFO - Starting email MCP server
+2025-06-04 14:41:09,616 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-04 14:41:09,616 - __main__ - INFO - Listing available tools
+2025-06-04 14:41:09,623 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-04 14:41:09,623 - __main__ - INFO - Listing available tools
+2025-06-06 14:37:05,730 - __main__ - INFO - Starting email MCP server
+2025-06-06 14:37:05,738 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:37:05,738 - __main__ - INFO - Listing available tools
+2025-06-06 14:37:05,743 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:37:05,743 - __main__ - INFO - Listing available tools
+2025-06-06 14:38:19,022 - __main__ - INFO - Starting email MCP server
+2025-06-06 14:38:19,027 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:38:19,027 - __main__ - INFO - Listing available tools
+2025-06-06 14:38:19,031 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:38:19,031 - __main__ - INFO - Listing available tools
+2025-06-06 14:39:52,713 - __main__ - INFO - Starting email MCP server
+2025-06-06 14:39:52,717 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:39:52,717 - __main__ - INFO - Listing available tools
+2025-06-06 14:39:52,722 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:39:52,722 - __main__ - INFO - Listing available tools
+2025-06-06 14:40:52,083 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-06-06 14:40:52,086 - __main__ - INFO - Calling tool: get_latest_email with arguments: {}
+2025-06-06 14:40:53,751 - __main__ - INFO - Retrieved email from: Claudia Sana Lingham <claudia@coffeebeans.io>, subject: Invitation: DS Debrief | Abhik Debnath @ Mon Jun 9, 2025 12pm -
+ 12:15pm (IST) (Soham Karanjkar)
+2025-06-06 14:44:15,772 - __main__ - INFO - Starting email MCP server
+2025-06-06 14:44:15,777 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:44:15,777 - __main__ - INFO - Listing available tools
+2025-06-06 14:44:15,782 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:44:15,782 - __main__ - INFO - Listing available tools
+2025-06-06 14:44:36,854 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-06-06 14:44:36,856 - __main__ - INFO - Calling tool: get_latest_email with arguments: {}
+2025-06-06 14:44:38,541 - __main__ - INFO - Retrieved email from: Claudia Sana Lingham <claudia@coffeebeans.io>, subject: Invitation: DS Debrief | Abhik Debnath @ Mon Jun 9, 2025 12pm -
+ 12:15pm (IST) (Soham Karanjkar)

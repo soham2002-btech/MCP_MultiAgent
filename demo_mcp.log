@@ -1,0 +1,65 @@
+2025-05-29 11:11:19,176 - __main__ - INFO - Starting demo MCP server
+2025-05-29 11:11:19,181 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-29 11:11:19,181 - __main__ - INFO - Listing available tools
+2025-05-29 11:11:19,190 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-29 11:11:19,190 - __main__ - INFO - Listing available tools
+2025-05-30 12:04:21,692 - __main__ - INFO - Starting demo MCP server
+2025-05-30 12:04:21,699 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 12:04:21,699 - __main__ - INFO - Listing available tools
+2025-05-30 12:04:21,703 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 12:04:21,703 - __main__ - INFO - Listing available tools
+2025-05-30 12:07:27,485 - __main__ - INFO - Starting demo MCP server
+2025-05-30 12:07:27,492 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 12:07:27,492 - __main__ - INFO - Listing available tools
+2025-05-30 12:07:27,497 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 12:07:27,497 - __main__ - INFO - Listing available tools
+2025-05-30 15:46:37,443 - __main__ - INFO - Starting demo MCP server
+2025-05-30 15:46:37,448 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 15:46:37,448 - __main__ - INFO - Listing available tools
+2025-05-30 15:46:37,453 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 15:46:37,453 - __main__ - INFO - Listing available tools
+2025-05-30 15:51:40,457 - __main__ - INFO - Starting demo MCP server
+2025-05-30 15:51:40,465 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 15:51:40,465 - __main__ - INFO - Listing available tools
+2025-05-30 15:51:40,470 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 15:51:40,470 - __main__ - INFO - Listing available tools
+2025-05-30 15:52:12,387 - __main__ - INFO - Starting demo MCP server
+2025-05-30 15:52:12,392 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 15:52:12,392 - __main__ - INFO - Listing available tools
+2025-05-30 15:52:12,397 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-30 15:52:12,397 - __main__ - INFO - Listing available tools
+2025-05-31 12:58:28,286 - __main__ - INFO - Starting demo MCP server
+2025-05-31 12:58:28,293 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-31 12:58:28,293 - __main__ - INFO - Listing available tools
+2025-05-31 12:58:28,297 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-05-31 12:58:28,297 - __main__ - INFO - Listing available tools
+2025-06-02 18:31:19,237 - __main__ - INFO - Starting demo MCP server
+2025-06-02 18:31:19,242 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-02 18:31:19,242 - __main__ - INFO - Listing available tools
+2025-06-02 18:31:19,247 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-02 18:31:19,247 - __main__ - INFO - Listing available tools
+2025-06-04 14:41:10,333 - __main__ - INFO - Starting demo MCP server
+2025-06-04 14:41:10,338 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-04 14:41:10,338 - __main__ - INFO - Listing available tools
+2025-06-04 14:41:10,347 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-04 14:41:10,347 - __main__ - INFO - Listing available tools
+2025-06-06 14:37:06,388 - __main__ - INFO - Starting demo MCP server
+2025-06-06 14:37:06,393 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:37:06,393 - __main__ - INFO - Listing available tools
+2025-06-06 14:37:06,399 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:37:06,399 - __main__ - INFO - Listing available tools
+2025-06-06 14:38:19,767 - __main__ - INFO - Starting demo MCP server
+2025-06-06 14:38:19,773 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:38:19,773 - __main__ - INFO - Listing available tools
+2025-06-06 14:38:19,777 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:38:19,777 - __main__ - INFO - Listing available tools
+2025-06-06 14:39:53,401 - __main__ - INFO - Starting demo MCP server
+2025-06-06 14:39:53,406 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:39:53,407 - __main__ - INFO - Listing available tools
+2025-06-06 14:39:53,411 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:39:53,411 - __main__ - INFO - Listing available tools
+2025-06-06 14:44:16,487 - __main__ - INFO - Starting demo MCP server
+2025-06-06 14:44:16,493 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:44:16,516 - __main__ - INFO - Listing available tools
+2025-06-06 14:44:16,521 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-06 14:44:16,522 - __main__ - INFO - Listing available tools

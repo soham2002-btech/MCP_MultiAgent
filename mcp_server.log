@@ -1,0 +1,571 @@
+2025-05-28 17:27:00,057 - __main__ - INFO - 🚀 Launching User-Facing MCP Host...
+2025-05-28 17:27:01,464 - __main__ - INFO - 🤖 User-Facing MCP Chatbot is ready! Type your command (e.g., 'List my GitHub repos'). Type 'exit' to quit.
+2025-05-28 17:27:20,141 - __main__ - INFO - Processing user input: List my GitHub repos soham2002-btech
+2025-05-28 17:27:31,699 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-28 17:27:35,177 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-28 17:27:44,089 - __main__ - INFO - ✅ Result:
+Here are your GitHub repositories:
+
+1. [Nominatim-](https://github.com/soham2002-btech/Nominatim-)
+2. [Soilder-Donation-App-DBMS-project](https://github.com/soham2002-btech/Soilder-Donation-App-DBMS-project)
+3. [Time-Series-Data-Analysis](https://github.com/soham2002-btech/Time-Series-Data-Analysis)
+4. [my-new-mcp-repo](https://github.com/soham2002-btech/my-new-mcp-repo)
+5. [RAG](https://github.com/soham2002-btech/RAG)
+6. [Yarnit_Soham_Submission](https://github.com/soham2002-btech/Yarnit_Soham_Submission)
+7. [Sentiment-Movie-Review-Analysis](https://github.com/soham2002-btech/Sentiment-Movie-Review-Analysis)
+8. [FInal_year_proj](https://github.com/soham2002-btech/FInal_year_proj)
+9. [Consumer-Loan-Assistant-Project](https://github.com/soham2002-btech/Consumer-Loan-Assistant-Project)
+2025-05-28 17:27:44,089 - __main__ - INFO - Time taken: 23.94753098487854 seconds
+2025-05-29 10:59:44,218 - mcp_use - WARNING - Error closing stdio context: unhandled errors in a TaskGroup (1 sub-exception)
+2025-05-29 11:11:08,559 - __main__ - INFO - 🚀 Launching User-Facing MCP Host...
+2025-05-29 11:11:09,153 - __main__ - INFO - 🤖 User-Facing MCP Chatbot is ready! Type your command (e.g., 'List my GitHub repos'). Type 'exit' to quit.
+2025-05-29 11:11:12,822 - __main__ - INFO - Processing user input: Hello
+2025-05-29 11:11:21,573 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-29 11:11:21,820 - __main__ - INFO - ✅ Result:
+Hello! How may I assist you today?
+2025-05-29 11:11:21,820 - __main__ - INFO - Time taken: 8.998139142990112 seconds
+2025-05-29 12:51:15,964 - mcp_use - WARNING - Error closing stdio context: unhandled errors in a TaskGroup (1 sub-exception)
+2025-05-30 15:46:22,502 - __main__ - INFO - 🚀 Launching User-Facing MCP Host...
+2025-05-30 15:46:23,011 - __main__ - INFO - 🤖 User-Facing MCP Chatbot is ready! Type your command (e.g., 'List my GitHub repos'). Type 'exit' to quit.
+2025-05-30 15:46:32,538 - __main__ - INFO - Processing user input: List my GitHub repos
+2025-05-30 15:46:40,012 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:46:42,125 - __main__ - INFO - ✅ Result:
+The user's request will be routed to the MCP responsible for the "search_repositories" functionality based on the provided context. This functionality allows the user to search for GitHub repositories using a query in GitHub's search syntax.
+
+For this particular request, the query should be the user's GitHub username.
+
+{
+  "query": "user:<username>"
+}
+2025-05-30 15:46:42,126 - __main__ - INFO - Time taken: 9.587013006210327 seconds
+2025-05-30 15:46:57,301 - __main__ - INFO - Processing user input: soham2002-btech
+2025-05-30 15:46:58,824 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:47:03,002 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:47:12,963 - __main__ - INFO - ✅ Result:
+Here are your GitHub repositories:
+
+1. [Nominatim-](https://github.com/soham2002-btech/Nominatim-)
+2. [Soilder-Donation-App-DBMS-project](https://github.com/soham2002-btech/Soilder-Donation-App-DBMS-project)
+3. [Time-Series-Data-Analysis](https://github.com/soham2002-btech/Time-Series-Data-Analysis)
+4. [my-new-mcp-repo](https://github.com/soham2002-btech/my-new-mcp-repo)
+5. [RAG](https://github.com/soham2002-btech/RAG)
+6. [Yarnit_Soham_Submission](https://github.com/soham2002-btech/Yarnit_Soham_Submission)
+7. [Sentiment-Movie-Review-Analysis](https://github.com/soham2002-btech/Sentiment-Movie-Review-Analysis)
+8. [FInal_year_proj](https://github.com/soham2002-btech/FInal_year_proj)
+9. [Consumer-Loan-Assistant-Project](https://github.com/soham2002-btech/Consumer-Loan-Assistant-Project)
+2025-05-30 15:47:12,963 - __main__ - INFO - Time taken: 15.661320924758911 seconds
+2025-05-30 15:47:37,665 - __main__ - INFO - Processing user input: send the email to sohamkaranjkar20@gmail.com with Body as Hi
+2025-05-30 15:47:39,333 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:47:51,420 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:47:51,572 - __main__ - INFO - ✅ Result:
+The email has been sent successfully!
+2025-05-30 15:47:51,572 - __main__ - INFO - Time taken: 13.907779216766357 seconds
+2025-05-30 15:48:29,418 - __main__ - INFO - Processing user input: Can You Describe or summarize what things you did uptill now?
+2025-05-30 15:48:31,149 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:48:35,803 - __main__ - INFO - ✅ Result:
+Sure, up until now I:
+
+1. Took your request to list your GitHub repositories. I translated your request into a system directive to communicate with the "search_repositories" function of MCP to fetch a list of your repositories. 
+
+2. Sent the details of your repositories as a response.
+
+3. Upon your request to send an email, I executed another task where I used the "send_email" function of MCP to draft an email with your content and sent it to the requested email address.
+
+4. Now, I am summarising the actions taken upon your requests.
+2025-05-30 15:48:35,804 - __main__ - INFO - Time taken: 6.385240077972412 seconds
+2025-05-30 15:49:24,873 - __main__ - INFO - Processing user input: can you get lastest 5 mails i received?
+2025-05-30 15:49:27,284 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:49:27,801 - __main__ - INFO - ✅ Result:
+I'm sorry for the inconvenience, but I'm unable to assist with that.
+2025-05-30 15:49:27,801 - __main__ - INFO - Time taken: 2.927955150604248 seconds
+2025-05-30 15:49:48,931 - __main__ - INFO - Processing user input: I want the Email Which Lastes I revived
+2025-05-30 15:49:51,039 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:49:55,220 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:50:01,606 - __main__ - INFO - ✅ Result:
+The latest email you received is from "Darshak Parikh (via Google Drive)" with the subject: "Folder shared with you: 'GenAI For Developers'". It contains a link to a Google Drive folder. Here's the content of the email:
+
+> I've shared an item with you:
+>
+> GenAI For Developers
+>
+> [Google Drive Link]: https://drive.google.com/drive/folders/11u1X2MnBbbU8ElxOHvUuRWV7jCJhNAZp?usp=sharing&ts=68396de5
+>
+> It's not an attachment -- it's stored online. To open this item, just click the link above.
+2025-05-30 15:50:01,607 - __main__ - INFO - Time taken: 12.675894975662231 seconds
+2025-05-30 15:50:13,515 - __main__ - INFO - Processing user input: Who Shared me that Email?
+2025-05-30 15:50:14,572 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:50:14,969 - __main__ - INFO - ✅ Result:
+The email was shared with you by Darshak Parikh via Google Drive.
+2025-05-30 15:50:14,970 - __main__ - INFO - Time taken: 1.4542608261108398 seconds
+2025-05-30 15:51:22,923 - __main__ - INFO - 🚀 Launching User-Facing MCP Host...
+2025-05-30 15:51:23,359 - __main__ - INFO - 🤖 User-Facing MCP Chatbot is ready! Type your command (e.g., 'List my GitHub repos'). Type 'exit' to quit.
+2025-05-30 15:51:35,270 - __main__ - INFO - Processing user input: List my GitHub repos
+2025-05-30 15:51:41,308 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-05-30 15:51:41,314 - mcp_use - ERROR - ❌ Error during agent execution step 1: Error code: 404 - {'error': {'message': 'The model `gpt-40-mini` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-05-30 15:51:41,335 - __main__ - INFO - ✅ Result:
+Agent stopped due to an error: Error code: 404 - {'error': {'message': 'The model `gpt-40-mini` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-05-30 15:51:41,336 - __main__ - INFO - Time taken: 6.066227197647095 seconds
+2025-05-30 15:52:00,994 - __main__ - INFO - 🚀 Launching User-Facing MCP Host...
+2025-05-30 15:52:01,376 - __main__ - INFO - 🤖 User-Facing MCP Chatbot is ready! Type your command (e.g., 'List my GitHub repos'). Type 'exit' to quit.
+2025-05-30 15:52:08,643 - __main__ - INFO - Processing user input: List my GitHub repos
+2025-05-30 15:52:14,587 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:52:16,697 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:52:16,988 - __main__ - INFO - ✅ Result:
+It seems that I need your GitHub username to list your repositories. Could you please provide your GitHub username?
+2025-05-30 15:52:16,989 - __main__ - INFO - Time taken: 8.345689058303833 seconds
+2025-05-30 15:52:29,083 - __main__ - INFO - Processing user input: soham2002-btech
+2025-05-30 15:52:30,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:52:32,710 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:52:38,973 - __main__ - INFO - ✅ Result:
+Here are your GitHub repositories:
+
+1. **[Nominatim-](https://github.com/soham2002-btech/Nominatim-)**
+   - Created on: January 2, 2023
+
+2. **[Soilder-Donation-App-DBMS-project](https://github.com/soham2002-btech/Soilder-Donation-App-DBMS-project)**
+   - Created on: January 2, 2023
+
+3. **[Time-Series-Data-Analysis](https://github.com/soham2002-btech/Time-Series-Data-Analysis)**
+   - Created on: January 2, 2023
+
+4. **[my-new-mcp-repo](https://github.com/soham2002-btech/my-new-mcp-repo)**
+   - Description: Created via MCP SDK
+   - Created on: May 21, 2025
+
+5. **[RAG](https://github.com/soham2002-btech/RAG)**
+   - Created on: September 7, 2024
+
+6. **[Yarnit_Soham_Submission](https://github.com/soham2002-btech/Yarnit_Soham_Submission)**
+   - Created on: May 7, 2024
+
+7. **[Sentiment-Movie-Review-Analysis](https://github.com/soham2002-btech/Sentiment-Movie-Review-Analysis)**
+   - Created on: August 25, 2024
+
+8. **[FInal_year_proj](https://github.com/soham2002-btech/FInal_year_proj)**
+   - Created on: February 13, 2024
+
+9. **[Consumer-Loan-Assistant-Project](https://github.com/soham2002-btech/Consumer-Loan-Assistant-Project)**
+   - Created on: August 5, 2022
+
+If you need more details about any specific repository, feel free to ask!
+2025-05-30 15:52:38,974 - __main__ - INFO - Time taken: 9.890136003494263 seconds
+2025-05-30 15:53:28,927 - __main__ - INFO - Processing user input: Give me the Latest Email Which I had received
+2025-05-30 15:53:30,874 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:53:35,020 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 15:53:37,644 - __main__ - INFO - ✅ Result:
+Here is the latest email you received:
+
+**From:** "Darshak Parikh (via Google Drive)" <drive-shares-dm-noreply@google.com>  
+**Subject:** Folder shared with you: "GenAI For Developers"  
+
+**Content:**
+I've shared an item with you:
+
+GenAI For Developers  
+[View Folder](https://drive.google.com/drive/folders/11u1X2MnBbbU8ElxOHvUuRWV7jCJhNAZp?usp=sharing&ts=68396de5)
+
+It's not an attachment -- it's stored online. To open this item, just click the link above.
+2025-05-30 15:53:37,644 - __main__ - INFO - Time taken: 8.718443632125854 seconds
+2025-05-31 10:24:54,919 - __main__ - INFO - Processing user input: give me all my repos
+2025-05-31 10:24:58,514 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 10:25:01,953 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 10:25:07,972 - __main__ - INFO - ✅ Result:
+Here are all your GitHub repositories:
+
+1. **[Nominatim-](https://github.com/soham2002-btech/Nominatim-)**  
+   - Created on: January 2, 2023
+
+2. **[Soilder-Donation-App-DBMS-project](https://github.com/soham2002-btech/Soilder-Donation-App-DBMS-project)**  
+   - Created on: January 2, 2023
+
+3. **[Time-Series-Data-Analysis](https://github.com/soham2002-btech/Time-Series-Data-Analysis)**  
+   - Created on: January 2, 2023
+
+4. **[my-new-mcp-repo](https://github.com/soham2002-btech/my-new-mcp-repo)**  
+   - Description: Created via MCP SDK  
+   - Created on: May 21, 2025
+
+5. **[RAG](https://github.com/soham2002-btech/RAG)**  
+   - Created on: September 7, 2024
+
+6. **[Yarnit_Soham_Submission](https://github.com/soham2002-btech/Yarnit_Soham_Submission)**  
+   - Created on: May 7, 2024
+
+7. **[Sentiment-Movie-Review-Analysis](https://github.com/soham2002-btech/Sentiment-Movie-Review-Analysis)**  
+   - Created on: August 25, 2024
+
+8. **[FInal_year_proj](https://github.com/soham2002-btech/FInal_year_proj)**  
+   - Created on: February 13, 2024
+
+9. **[Consumer-Loan-Assistant-Project](https://github.com/soham2002-btech/Consumer-Loan-Assistant-Project)**  
+   - Created on: August 5, 2022
+
+If you need any more details or assistance with any specific repository, feel free to ask!
+2025-05-31 10:25:07,973 - __main__ - INFO - Time taken: 13.08381962776184 seconds
+2025-05-31 10:25:37,043 - __main__ - INFO - Processing user input: delete the repo Consumer-Loan-Assistant-Project
+2025-05-31 10:25:39,022 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 10:25:41,018 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 10:25:43,620 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 10:25:46,369 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 10:25:48,853 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 10:25:52,001 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 10:25:56,021 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 10:25:59,399 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 10:26:02,182 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 10:26:05,032 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 10:26:05,751 - mcp_use - WARNING - ⚠️ Agent stopped after reaching max iterations (10)
+2025-05-31 10:26:05,754 - __main__ - INFO - ✅ Result:
+Agent stopped after reaching the maximum number of steps (10).
+2025-05-31 10:26:05,754 - __main__ - INFO - Time taken: 28.710390090942383 seconds
+2025-05-31 12:55:34,147 - mcp_use - WARNING - Error closing stdio context: unhandled errors in a TaskGroup (1 sub-exception)
+2025-05-31 12:55:34,153 - mcp_use - WARNING - Error closing stdio context: unhandled errors in a TaskGroup (1 sub-exception)
+2025-05-31 12:56:22,820 - __main__ - INFO - 🚀 Launching User-Facing MCP Host...
+2025-05-31 12:56:23,278 - __main__ - INFO - 🤖 User-Facing MCP Chatbot is ready! Type your command (e.g., 'List my GitHub repos'). Type 'exit' to quit.
+2025-05-31 12:58:21,779 - __main__ - INFO - Processing user input: List my github repos
+2025-05-31 12:58:32,471 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 12:58:36,727 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 12:58:44,564 - __main__ - INFO - ✅ Result:
+Here are your GitHub repositories:
+
+1. [meteorirc](https://github.com/me/meteorirc) - Created on April 25, 2012
+2. [spider](https://github.com/me/spider) - Yet another Ruby framework (Created on November 21, 2008)
+3. [particle_filter_demo](https://github.com/me/particle_filter_demo) - Created on November 8, 2017
+4. [cldr](https://github.com/me/cldr) - Fork of Yotabanana's CLDR library (Created on September 7, 2011)
+5. [CocoaPodSpecs](https://github.com/me/CocoaPodSpecs) - Created on May 12, 2015
+6. [Traffic_Signs_Recognition](https://github.com/me/Traffic_Signs_Recognition) - Created on January 15, 2017
+7. [GCal](https://github.com/me/GCal) - GCal integration using JavaScript (Created on July 26, 2013)
+8. [lane-detector](https://github.com/me/lane-detector) - Lane detection for self-driving car P1 (Created on December 5, 2016)
+9. [misty](https://github.com/me/misty) - Created on December 6, 2012
+10. [commander](https://github.com/me/commander) - Created on February 10, 2019
+11. [driving_behavioural_cloning](https://github.com/me/driving_behavioural_cloning) - Created on January 22, 2017
+12. [london-departure-times](https://github.com/me/london-departure-times) - London departure times app (Created on February 12, 2016)
+13. [kdtree](https://github.com/me/kdtree) - Created on February 14, 2017
+14. [tmp-test-repo](https://github.com/me/tmp-test-repo) - Created on May 18, 2023
+15. [poker](https://github.com/me/poker) - Created on June 21, 2013
+16. [refile-azure](https://github.com/me/refile-azure) - Microsoft Azure backend for Refile (Created on July 18, 2016)
+
+Feel free to ask if you need more information about any specific repository!
+2025-05-31 12:58:44,564 - __main__ - INFO - Time taken: 22.786343097686768 seconds
+2025-05-31 12:59:13,947 - __main__ - INFO - Processing user input: give me last email I got
+2025-05-31 12:59:15,774 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 12:59:21,117 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 12:59:23,650 - __main__ - INFO - ✅ Result:
+Here is the last email you received:
+
+**From:** Soham Sachin Karanjkar <soham.karanjkar@coffeebeans.io>  
+**Subject:** New expense report Expense Report - Soham Sachin Karanjkar - 329 submitted  
+
+---
+
+Dear Prashanth Jayakumar,
+
+The expense report titled **Expense Report - Soham Sachin Karanjkar - 329(ER-06550)** has been submitted by Soham Sachin Karanjkar for approval.
+
+[**View Report**](https://expense.zoho.in/switch?organization_id=60023910044&amp;redirect_url=/app#/approvals/1475792000052518981)
+
+Regards,  
+Soham Sachin Karanjkar  
+CoffeeBeans Consulting LLP
+
+---
+
+You also have the option to configure your email notifications [here](https://expense.zoho.in/switch?organization_id=60023910044&amp;redirect_url=/app#/settings/preferences/expensereport).
+2025-05-31 12:59:23,650 - __main__ - INFO - Time taken: 9.702873706817627 seconds
+2025-05-31 12:59:57,512 - __main__ - INFO - Processing user input: in github Show me the RAG repo
+2025-05-31 12:59:59,673 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 13:00:03,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 13:00:10,786 - __main__ - INFO - ✅ Result:
+Here are some repositories related to "RAG":
+
+1. **[RagaAI-Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst)**  
+   - **Description:** Python SDK for Agent AI Observability, Monitoring and Evaluation Framework.
+   - **Owner:** raga-ai-hub
+   - **Created at:** August 26, 2024
+
+2. **[ragflow](https://github.com/infiniflow/ragflow)**  
+   - **Description:** RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.
+   - **Owner:** infiniflow
+   - **Created at:** December 12, 2023
+
+3. **[raganork-md](https://github.com/souravkl11/raganork-md)**  
+   - **Description:** Multi-functional WhatsApp bot project.
+   - **Owner:** souravkl11
+   - **Created at:** April 10, 2022
+
+4. **[LightRAG](https://github.com/HKUDS/LightRAG)**  
+   - **Description:** "LightRAG: Simple and Fast Retrieval-Augmented Generation"
+   - **Owner:** HKUDS
+   - **Created at:** October 2, 2024
+
+5. **[RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)**  
+   - **Description:** Showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems.
+   - **Owner:** NirDiamant
+   - **Created at:** July 13, 2024
+
+6. **[RAG](https://github.com/pymupdf/RAG)**  
+   - **Description:** RAG (Retrieval-Augmented Generation) Chatbot Examples Using PyMuPDF.
+   - **Owner:** pymupdf
+   - **Created at:** March 21, 2024
+
+7. **[rag-search](https://github.com/thinkany-ai/rag-search)**  
+   - **Description:** RAG Search API.
+   - **Owner:** thinkany-ai
+   - **Created at:** March 25, 2024
+
+Feel free to click on any of the repository names to explore further! If you're looking for something specific, let me know!
+2025-05-31 13:00:10,787 - __main__ - INFO - Time taken: 13.273874998092651 seconds
+2025-05-31 13:01:30,477 - __main__ - INFO - Processing user input: access soham2002-btech repo
+2025-05-31 13:01:32,492 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 13:01:35,582 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 13:01:36,404 - __main__ - INFO - ✅ Result:
+It seems that there is no repository named "soham2002-btech" in the GitHub database. It's possible that the repository is private or does not exist. 
+
+If you have more details or if there's anything else you'd like me to assist you with, please let me know!
+2025-05-31 13:01:36,404 - __main__ - INFO - Time taken: 5.927143812179565 seconds
+2025-05-31 13:01:59,584 - __main__ - INFO - Processing user input: List repo soham2002-btech this user name
+2025-05-31 13:02:01,461 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 13:02:04,513 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 13:02:10,890 - __main__ - INFO - ✅ Result:
+Here are the repositories owned by the user **soham2002-btech**:
+
+1. **[Nominatim-](https://github.com/soham2002-btech/Nominatim-)**
+   - Created at: January 2, 2023
+
+2. **[Soilder-Donation-App-DBMS-project](https://github.com/soham2002-btech/Soilder-Donation-App-DBMS-project)**
+   - Created at: January 2, 2023
+
+3. **[Time-Series-Data-Analysis](https://github.com/soham2002-btech/Time-Series-Data-Analysis)**
+   - Created at: January 2, 2023
+
+4. **[my-new-mcp-repo](https://github.com/soham2002-btech/my-new-mcp-repo)**
+   - Description: Created via MCP SDK
+   - Created at: May 21, 2025
+
+5. **[RAG](https://github.com/soham2002-btech/RAG)**
+   - Created at: September 7, 2024
+
+6. **[Sentiment-Movie-Review-Analysis](https://github.com/soham2002-btech/Sentiment-Movie-Review-Analysis)**
+   - Created at: August 25, 2024
+
+7. **[RAG_Basic_Adv](https://github.com/soham2002-btech/RAG_Basic_Adv)**
+   - Created at: May 7, 2024
+
+8. **[AI_Avatar](https://github.com/soham2002-btech/AI_Avatar)**
+   - Created at: February 13, 2024
+
+9. **[Consumer-Loan-Assistant-Project](https://github.com/soham2002-btech/Consumer-Loan-Assistant-Project)**
+   - Created at: August 5, 2022
+
+Feel free to click on the repository names for further details! If you need information on any specific repository, just let me know!
+2025-05-31 13:02:10,890 - __main__ - INFO - Time taken: 11.30584716796875 seconds
+2025-05-31 13:02:30,387 - __main__ - INFO - Processing user input: Give me Details for AI_Avatar
+2025-05-31 13:02:32,364 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 13:02:35,671 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 13:02:44,310 - __main__ - INFO - ✅ Result:
+Here are the details for the **AI_Avatar** repository owned by **soham2002-btech**:
+
+### Repository Overview
+- **Name:** AI_Avatar
+- **Owner:** soham2002-btech
+- **Description:** The repository contains scripts and files related to AI avatar generation, including voice and video functionalities.
+- **Language:** Python
+- **Creation Date:** (not specified, but you can check the repository link for more)
+
+### Files in the Repository
+
+1. **[Answer_generation_by_mistralai.py](https://github.com/soham2002-btech/AI_Avatar/blob/main/Answer_generation_by_mistralai.py)**
+   - Size: 1,179 bytes
+
+2. **[Language_translation.py](https://github.com/soham2002-btech/AI_Avatar/blob/main/Language_translation.py)**
+   - Size: 866 bytes
+
+3. **[Silent_Video.py](https://github.com/soham2002-btech/AI_Avatar/blob/main/Silent_Video.py)**
+   - Size: 301 bytes
+
+4. **[Speaker_diarization1.py](https://github.com/soham2002-btech/AI_Avatar/blob/main/Speaker_diarization1.py)**
+   - Size: 1,452 bytes
+
+5. **[Speech_to_text.py](https://github.com/soham2002-btech/AI_Avatar/blob/main/Speech_to_text.py)**
+   - Size: 896 bytes
+
+6. **[Text_to_speech.py](https://github.com/soham2002-btech/AI_Avatar/blob/main/Text_to_speech.py)**
+   - Size: 984 bytes
+
+7. **[app.py](https://github.com/soham2002-btech/AI_Avatar/blob/main/app.py)**
+   - Size: 1,981 bytes
+
+8. **[index.html](https://github.com/soham2002-btech/AI_Avatar/blob/main/index.html)**
+   - Size: 1,271 bytes
+
+9. **[main.py](https://github.com/soham2002-btech/AI_Avatar/blob/main/main.py)**
+   - Size: 953 bytes
+
+10. **[mp3_to_wav.py](https://github.com/soham2002-btech/AI_Avatar/blob/main/mp3_to_wav.py)**
+    - Size: 315 bytes
+
+11. **[styles.css](https://github.com/soham2002-btech/AI_Avatar/blob/main/styles.css)**
+    - Size: 1,119 bytes
+
+### Accessing Files
+You can access individual files using their respective links provided above. If you need further information or specific functionality regarding this repository, feel free to ask!
+2025-05-31 13:02:44,311 - __main__ - INFO - Time taken: 13.923388004302979 seconds
+2025-05-31 13:03:03,028 - __main__ - INFO - Processing user input: who made last chanegs to repo
+2025-05-31 13:03:04,331 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 13:03:06,808 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 13:03:10,425 - __main__ - INFO - ✅ Result:
+The last changes to the **AI_Avatar** repository were made by:
+
+### Last Commit
+- **Commit Hash:** [727654b](https://github.com/soham2002-btech/AI_Avatar/commit/727654b88c6183e84962fe8384207d3910fc1856)
+- **Author:** Akshay Sonaje
+  - **Email:** [121511310+AkshaySoanje@users.noreply.github.com](mailto:121511310+AkshaySoanje@users.noreply.github.com)
+  - **Date:** February 13, 2024
+- **Commit Message:** Merge pull request #1 from soham2002-btech/front-end  
+**Description:** Merged another branch related to front-end updates.
+
+You can view the commit details [here](https://github.com/soham2002-btech/AI_Avatar/commit/727654b88c6183e84962fe8384207d3910fc1856).
+
+If you have any further questions or need more details, feel free to ask!
+2025-05-31 13:03:10,425 - __main__ - INFO - Time taken: 7.39745020866394 seconds
+2025-05-31 13:04:24,252 - __main__ - INFO - Processing user input: what changes Upadted by Akshay Sonaje this guy
+2025-05-31 13:04:26,969 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 13:04:29,548 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 13:04:34,681 - __main__ - INFO - ✅ Result:
+Here are the changes made by **Akshay Sonaje** to the **AI_Avatar** repository:
+
+### Commit Details
+1. **Commit Hash:** [727654b](https://github.com/soham2002-btech/AI_Avatar/commit/727654b88c6183e84962fe8384207d3910fc1856)
+   - **Author:** Akshay Sonaje
+   - **Date:** February 13, 2024
+   - **Message:** Merge pull request #1 from soham2002-btech/front-end
+   - **Description:** Merged another branch related to front-end updates.
+
+2. **Commit Hash:** [1916068d](https://github.com/soham2002-btech/AI_Avatar/commit/1916068dd9303353cea075ee7611aea599bd23e4)
+   - **Author:** Akshay Sonaje
+   - **Date:** February 13, 2024
+   - **Message:** Add files via upload
+   - **Description:** Uploaded new files related to AI avatar functionalities.
+
+3. **Commit Hash:** [c60a1222](https://github.com/soham2002-btech/AI_Avatar/commit/c60a1222f38a10a002a07f36cf419e0a1b91fb04)
+   - **Author:** Akshay Sonaje
+   - **Date:** February 13, 2024
+   - **Message:** Add files via upload
+   - **Description:** Uploaded more files for the AI avatar project.
+
+These are the primary changes made by Akshay Sonaje in the recent commits. If you need specific details about any of the uploaded files, just let me know!
+2025-05-31 13:04:34,682 - __main__ - INFO - Time taken: 10.428974866867065 seconds
+2025-05-31 13:59:27,745 - __main__ - INFO - Processing user input: create the repo namely ABC
+2025-05-31 13:59:27,918 - openai._base_client - INFO - Retrying request to /chat/completions in 0.446596 seconds
+2025-05-31 13:59:28,383 - openai._base_client - INFO - Retrying request to /chat/completions in 0.908687 seconds
+2025-05-31 13:59:29,313 - mcp_use - ERROR - ❌ Error during agent execution step 1: Connection error.
+2025-05-31 13:59:29,431 - __main__ - INFO - ✅ Result:
+Agent stopped due to an error: Connection error.
+2025-05-31 13:59:29,431 - __main__ - INFO - Time taken: 1.6966159343719482 seconds
+2025-05-31 13:59:49,160 - mcp_use - WARNING - Error closing stdio context: unhandled errors in a TaskGroup (1 sub-exception)
+2025-06-02 18:30:54,953 - __main__ - INFO - 🚀 Launching User-Facing MCP Host...
+2025-06-02 18:30:55,467 - __main__ - INFO - 🤖 User-Facing MCP Chatbot is ready! Type your command (e.g., 'List my GitHub repos'). Type 'exit' to quit.
+2025-06-02 18:31:13,052 - __main__ - INFO - Processing user input: Give me List of repo I have
+2025-06-02 18:31:22,714 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-02 18:31:25,642 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-02 18:31:27,132 - __main__ - INFO - ✅ Result:
+It looks like I'm unable to access the list of your repositories directly. However, you can view your repositories by following these steps:
+
+1. Go to [GitHub](https://github.com).
+2. Log in with your account.
+3. Click on your profile icon at the top right corner.
+4. Select "Your repositories" from the dropdown menu.
+
+This will show you a list of all the repositories you have. If you need help with anything specific regarding your repositories, feel free to ask!
+2025-06-02 18:31:27,132 - __main__ - INFO - Time taken: 14.07983112335205 seconds
+2025-06-02 18:31:36,169 - __main__ - INFO - Processing user input: soham2002-btech
+2025-06-02 18:31:37,830 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-02 18:31:40,205 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-02 18:31:41,846 - __main__ - INFO - ✅ Result:
+It seems like there was an error while trying to access the repositories using the provided name. Could you please confirm if "soham2002-btech" is the owner or the repository name? Alternatively, provide me with the correct owner/user name and repository name, and I will try again to retrieve the information for you.
+2025-06-02 18:31:41,846 - __main__ - INFO - Time taken: 5.676769018173218 seconds
+2025-06-02 18:31:53,437 - __main__ - INFO - Processing user input: its username
+2025-06-02 18:31:55,082 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-02 18:31:58,425 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-02 18:32:13,646 - __main__ - INFO - ✅ Result:
+Here is the list of repositories you have under the username "soham2002-btech":
+
+1. [Nominatim-](https://github.com/soham2002-btech/Nominatim-)
+   - Created on: Jan 2, 2023
+
+2. [Soilder-Donation-App-DBMS-project](https://github.com/soham2002-btech/Soilder-Donation-App-DBMS-project)
+   - Created on: Jan 2, 2023
+
+3. [Time-Series-Data-Analysis](https://github.com/soham2002-btech/Time-Series-Data-Analysis)
+   - Created on: Jan 2, 2023
+
+4. [my-new-mcp-repo](https://github.com/soham2002-btech/my-new-mcp-repo)
+   - Description: Created via MCP SDK
+   - Created on: May 21, 2025
+
+5. [RAG](https://github.com/soham2002-btech/RAG)
+   - Created on: Sep 7, 2024
+
+6. [Sentiment-Movie-Review-Analysis](https://github.com/soham2002-btech/Sentiment-Movie-Review-Analysis)
+   - Created on: Aug 25, 2024
+   
+7. [RAG_Basic_Adv](https://github.com/soham2002-btech/RAG_Basic_Adv)
+   - Created on: May 7, 2024
+
+8. [AI_Avatar](https://github.com/soham2002-btech/AI_Avatar)
+   - Created on: Feb 13, 2024
+  
+9. [Consumer-Loan-Assistant-Project](https://github.com/soham2002-btech/Consumer-Loan-Assistant-Project)
+   - Created on: Aug 5, 2022
+
+If you need more details about any specific repository or further assistance, feel free to ask!
+2025-06-02 18:32:13,647 - __main__ - INFO - Time taken: 20.209753036499023 seconds
+2025-06-02 18:32:46,996 - __main__ - INFO - Processing user input: Give me the lastest Email I got
+2025-06-02 18:32:48,317 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-02 18:32:53,309 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-02 18:32:53,928 - __main__ - INFO - ✅ Result:
+The latest email you received is from Priyanka Raymund with the subject "Your timesheet request is approved." If you need any further details or assistance, feel free to ask!
+2025-06-02 18:32:53,929 - __main__ - INFO - Time taken: 6.9326698780059814 seconds
+2025-06-02 18:33:09,948 - __main__ - INFO - Processing user input: Can you Summaries the Email
+2025-06-02 18:33:11,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-02 18:33:16,307 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-02 18:33:16,979 - __main__ - INFO - ✅ Result:
+The latest email is from Priyanka Raymund, and the subject is "Your timesheet request is approved." 
+
+Summary:
+- You have received approval for your timesheet request.
+
+If you need any additional information or further assistance, feel free to ask!
+2025-06-02 18:33:16,979 - __main__ - INFO - Time taken: 7.031299829483032 seconds
+2025-06-02 18:33:59,884 - __main__ - INFO - Processing user input: Send the Email to abhishek.khemani@coffeebeans.io with Body Hi and Subject as hello
+2025-06-02 18:34:01,175 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-02 18:34:11,212 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-02 18:34:12,073 - __main__ - INFO - ✅ Result:
+The email has been successfully sent to abhishek.khemani@coffeebeans.io with the subject "hello" and the body "Hi." If you need any further assistance, feel free to ask!
+2025-06-02 18:34:12,073 - __main__ - INFO - Time taken: 12.188894987106323 seconds
+2025-06-04 14:40:50,452 - __main__ - INFO - 🚀 Launching User-Facing MCP Host...
+2025-06-04 14:40:50,927 - __main__ - INFO - 🤖 User-Facing MCP Chatbot is ready! Type your command (e.g., 'List my GitHub repos'). Type 'exit' to quit.
+2025-06-04 14:41:04,837 - __main__ - INFO - Processing user input: Give me all my repos
+2025-06-04 14:41:13,180 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 14:41:15,660 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 14:41:24,943 - __main__ - INFO - ✅ Result:
+Here are all your repositories:
+
+1. **[meteorirc](https://github.com/me/meteorirc)** - Created on: 2012-04-25
+2. **[spider](https://github.com/me/spider)** - Created on: 2008-11-21 - Description: Yet another Ruby framework
+3. **[particle_filter_demo](https://github.com/me/particle_filter_demo)** - Created on: 2017-11-08
+4. **[cldr](https://github.com/me/cldr)** - Created on: 2011-09-07 - Description: Fork of Yotabanana's CLDR library
+5. **[CocoaPodSpecs](https://github.com/me/CocoaPodSpecs)** - Created on: 2015-05-12
+6. **[Traffic_Signs_Recognition](https://github.com/me/Traffic_Signs_Recognition)** - Created on: 2017-01-15
+7. **[GCal](https://github.com/me/GCal)** - Created on: 2013-07-26 - Description: GCal integration using JavaScript
+8. **[lane-detector](https://github.com/me/lane-detector)** - Created on: 2016-12-05 - Description: Lane detection for self-driving car P1
+9. **[misty](https://github.com/me/misty)** - Created on: 2012-12-06
+10. **[commander](https://github.com/me/commander)** - Created on: 2019-02-10
+11. **[driving_behavioural_cloning](https://github.com/me/driving_behavioural_cloning)** - Created on: 2017-01-22
+12. **[london-departure-times](https://github.com/me/london-departure-times)** - Created on: 2016-02-12 - Description: London departure times app
+13. **[kdtree](https://github.com/me/kdtree)** - Created on: 2017-02-14
+14. **[tmp-test-repo](https://github.com/me/tmp-test-repo)** - Created on: 2023-05-18
+15. **[poker](https://github.com/me/poker)** - Created on: 2013-06-21
+16. **[refile-azure](https://github.com/me/refile-azure)** - Created on: 2016-07-18 - Description: Microsoft Azure backend for Refile
+
+If you need more information or actions regarding any of these repositories, feel free to ask!
+2025-06-04 14:41:24,946 - __main__ - INFO - Time taken: 20.106419801712036 seconds

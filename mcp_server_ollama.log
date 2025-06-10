@@ -1,0 +1,61 @@
+2025-05-30 12:04:10,928 - __main__ - INFO - 🚀 Launching User-Facing MCP Host with Ollama...
+2025-05-30 12:04:10,930 - __main__ - INFO - 🤖 User-Facing MCP Chatbot is ready! Type your command (e.g., 'List my GitHub repos'). Type 'exit' to quit.
+2025-05-30 12:04:16,428 - __main__ - INFO - Processing user input: Hi
+2025-05-30 12:04:21,817 - mcp_use - ERROR - ❌ Error running query: This function requires a .bind_tools method be implemented on the LLM.
+2025-05-30 12:04:21,818 - __main__ - ERROR - ❌ Error: This function requires a .bind_tools method be implemented on the LLM.
+Traceback (most recent call last):
+  File "/Users/sonam.karanjkar/Documents/Service_Accelerators/main2.py", line 63, in user_facing_host
+    result = await agent.run(user_input)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sonam.karanjkar/Documents/mcp_github_poc/venv/lib/python3.12/site-packages/mcp_use/agents/mcpagent.py", line 420, in run
+    await self.initialize()
+  File "/Users/sonam.karanjkar/Documents/mcp_github_poc/venv/lib/python3.12/site-packages/mcp_use/agents/mcpagent.py", line 161, in initialize
+    self._agent_executor = self._create_agent()
+                           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sonam.karanjkar/Documents/mcp_github_poc/venv/lib/python3.12/site-packages/mcp_use/agents/mcpagent.py", line 215, in _create_agent
+    agent = create_tool_calling_agent(llm=self.llm, tools=self._tools, prompt=prompt)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sonam.karanjkar/Documents/mcp_github_poc/venv/lib/python3.12/site-packages/langchain/agents/tool_calling_agent/base.py", line 96, in create_tool_calling_agent
+    raise ValueError(
+ValueError: This function requires a .bind_tools method be implemented on the LLM.
+2025-05-30 12:05:55,056 - __main__ - INFO - Processing user input: 
+2025-05-30 12:07:18,412 - __main__ - INFO - 🚀 Launching User-Facing MCP Host with Ollama...
+2025-05-30 12:07:18,494 - __main__ - INFO - 🤖 User-Facing MCP Chatbot is ready! Type your command (e.g., 'List my GitHub repos'). Type 'exit' to quit.
+2025-05-30 12:07:22,288 - __main__ - INFO - Processing user input: Hi
+2025-05-30 12:07:27,606 - mcp_use - ERROR - ❌ Error running query: This function requires a .bind_tools method be implemented on the LLM.
+2025-05-30 12:07:27,607 - __main__ - ERROR - ❌ Error: This function requires a .bind_tools method be implemented on the LLM.
+Traceback (most recent call last):
+  File "/Users/sonam.karanjkar/Documents/Service_Accelerators/main2.py", line 63, in user_facing_host
+    result = await agent.run(user_input)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sonam.karanjkar/Documents/mcp_github_poc/venv/lib/python3.12/site-packages/mcp_use/agents/mcpagent.py", line 420, in run
+    await self.initialize()
+  File "/Users/sonam.karanjkar/Documents/mcp_github_poc/venv/lib/python3.12/site-packages/mcp_use/agents/mcpagent.py", line 161, in initialize
+    self._agent_executor = self._create_agent()
+                           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sonam.karanjkar/Documents/mcp_github_poc/venv/lib/python3.12/site-packages/mcp_use/agents/mcpagent.py", line 215, in _create_agent
+    agent = create_tool_calling_agent(llm=self.llm, tools=self._tools, prompt=prompt)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sonam.karanjkar/Documents/mcp_github_poc/venv/lib/python3.12/site-packages/langchain/agents/tool_calling_agent/base.py", line 96, in create_tool_calling_agent
+    raise ValueError(
+ValueError: This function requires a .bind_tools method be implemented on the LLM.
+2025-05-30 12:07:39,485 - __main__ - INFO - Processing user input: List my Github repo
+2025-05-30 12:07:39,592 - mcp_use - ERROR - ❌ Error running query: This function requires a .bind_tools method be implemented on the LLM.
+2025-05-30 12:07:39,593 - __main__ - ERROR - ❌ Error: This function requires a .bind_tools method be implemented on the LLM.
+Traceback (most recent call last):
+  File "/Users/sonam.karanjkar/Documents/Service_Accelerators/main2.py", line 63, in user_facing_host
+    result = await agent.run(user_input)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sonam.karanjkar/Documents/mcp_github_poc/venv/lib/python3.12/site-packages/mcp_use/agents/mcpagent.py", line 420, in run
+    await self.initialize()
+  File "/Users/sonam.karanjkar/Documents/mcp_github_poc/venv/lib/python3.12/site-packages/mcp_use/agents/mcpagent.py", line 161, in initialize
+    self._agent_executor = self._create_agent()
+                           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sonam.karanjkar/Documents/mcp_github_poc/venv/lib/python3.12/site-packages/mcp_use/agents/mcpagent.py", line 215, in _create_agent
+    agent = create_tool_calling_agent(llm=self.llm, tools=self._tools, prompt=prompt)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sonam.karanjkar/Documents/mcp_github_poc/venv/lib/python3.12/site-packages/langchain/agents/tool_calling_agent/base.py", line 96, in create_tool_calling_agent
+    raise ValueError(
+ValueError: This function requires a .bind_tools method be implemented on the LLM.
+2025-05-30 15:46:09,128 - mcp_use - WARNING - Error closing stdio context: unhandled errors in a TaskGroup (1 sub-exception)
+2025-05-30 15:46:09,135 - mcp_use - WARNING - Error closing stdio context: unhandled errors in a TaskGroup (1 sub-exception)
