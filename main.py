@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 from mcp_use import MCPClient, MCPAgent
 import time
 
-# Configure logging
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -19,8 +19,7 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 
-# --- MCP Host 1: User-Facing MCP Host ---
-# This MCP host receives user commands and decides where to route them
+
 USER_HOST_CONFIG = {
     "mcpServers": {
         "githubFacade": {
@@ -41,7 +40,6 @@ USER_HOST_CONFIG = {
 async def user_facing_host():
     logger.info("🚀 Launching User-Facing MCP Host...")
 
-    # Client connects to downstream MCPs (e.g., GitHub MCP Facade)
     client = MCPClient.from_dict(USER_HOST_CONFIG)
     prompt = "You are a helpful assistant that can answer questions and help with tasks. based on the user's request, you will decide which MCP to route the request to. you will also decide the best way to route the request to the MCP."
     llm = ChatOpenAI(model="gpt-4o-mini", openai_api_key=os.getenv("OPENAI_API_KEY"))
@@ -52,17 +50,17 @@ async def user_facing_host():
     while True:
         user_input = input("\n>> ")
         if user_input.lower() in ["exit", "quit"]:
-            logger.info("👋 Exiting. Goodbye!")
+            logger.info("Exiting. Goodbye!")
             break
         try:
             start_time = time.time()
             logger.info(f"Processing user input: {user_input}")
             result = await agent.run(user_input)
             end_time = time.time()
-            logger.info(f"✅ Result:\n{result}")
+            logger.info(f"Result:\n{result}")
             logger.info(f"Time taken: {end_time - start_time} seconds")
         except Exception as e:
-            logger.error(f"❌ Error: {e}", exc_info=True)
+            logger.error(f"Error: {e}", exc_info=True)
 
 if __name__ == "__main__":
     asyncio.run(user_facing_host())
