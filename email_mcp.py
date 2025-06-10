@@ -1,28 +1,3 @@
-# import subprocess
-# import os
-# from dotenv import load_dotenv
-
-# load_dotenv()
-
-# def start_email_mcp_server():
-#     email_user = os.getenv("EMAIL_USER")
-#     email_pass = os.getenv("EMAIL_PASS")
-#     if not email_user or not email_pass:
-#         raise ValueError("EMAIL_USER and EMAIL_PASS must be set in .env file")
-
-#     print("🔁 Launching Email MCP Host via npx...")
-
-#     subprocess.run([
-#         "npx",
-#         "-y",
-#         "@modelcontextprotocol/server-email",
-#         "--user", email_user,
-#         "--pass", email_pass
-#     ])
-
-# if __name__ == "__main__":
-#     start_email_mcp_server() 
-
 import asyncio
 import os
 import logging
@@ -35,7 +10,7 @@ from email.message import EmailMessage
 from mcp.server.stdio import stdio_server
 import time
 
-# Configure logging
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
